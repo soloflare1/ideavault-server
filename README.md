@@ -1,22 +1,18 @@
-#  IdeaVault — Share, Validate & Scale Startup Concepts
+# IdeaVault Server — Backend API
 
-Client Live Site : https://idea-vault-client-drab.vercel.app
-Live Site : https://ideavault-server-nqa7.onrender.com
+* Client Live Site : https://idea-vault-client-drab.vercel.app
+* Live API Endpoint: [https://ideavault-server-nqa7.onrender.com](https://ideavault-server-nqa7.onrender.com)
 
-IdeaVault is a dynamic web application built for entrepreneurs, innovators, and creators to share, explore, and validate business and tech startup ideas within a community.
+##  Core Functionalities
 
-##  Key Features
-
-* **Interactive Idea Discovery:** 
-* **Secure JWT & Firebase Authentication:** 
-* **Community Engagement (Comments):** U
-* **Personalized Dashboard & Activity Trackers:** 
-* **Responsive Dark/Light Mode:**
+* **JWT Authentication** **
+* **Database Management**
+* **RESTful API Endpoints**
+* **CORS & Environment Protection**
 
 ##  Tech Stack
 
-* **Frontend:** React.js, Tailwind CSS, Axios
-* **Routing & Authentication:** React Router DOM, Firebase Auth
-* **Icons & Notifications:** Lucide React / React Icons, React Hot Toast / SweetAlert2
-* **Deployment:** Vercel
-
+* **Runtime & Framework:** Node.js, Express.js
+* **Database:** MongoDB Native Driver
+* **Security & Tokens:** JSON Web Tokens (`jsonwebtoken`), Cookie Parser (`cookie-parser`), CORS
+* **Deployment:** Render

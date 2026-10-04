@@ -16,6 +16,7 @@ app.use(
       "http://localhost:5174",
       "https://ideavault-c32dd.firebaseapp.com",  
       "https://ideavault-c32dd.web.app",
+      "https://idea-vault-client-drab.vercel.app",
     ],
     credentials: true,
   })

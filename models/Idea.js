@@ -1,8 +1,9 @@
 
+
 const mongoose = require("mongoose");
 
 const ideaSchema = new mongoose.Schema(
-  {
+{
     title: { type: String, required: true, trim: true },
     description: { type: String, required: true },
     category: { type: String, default: "General" },
@@ -10,5 +11,6 @@ const ideaSchema = new mongoose.Schema(
   },
   { timestamps: true }
 );
+
 
 module.exports = mongoose.model("Idea", ideaSchema);
